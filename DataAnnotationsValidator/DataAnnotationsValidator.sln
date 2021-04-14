@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAnnotationsValidator.Tests", "DataAnnotationsValidator.Tests\DataAnnotationsValidator.Tests.csproj", "{019E325C-9923-4643-8834-1A301F148093}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAnnotationsValidator", "DataAnnotationsValidator\DataAnnotationsValidator.csproj", "{218B0C2C-19AD-4C7B-B583-840FF755A76D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAnnotationsValidator", "DataAnnotationsValidator\DataAnnotationsValidator.csproj", "{218B0C2C-19AD-4C7B-B583-840FF755A76D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{AC4200BF-B65D-4BC7-B12B-53617385CC56}"
 	ProjectSection(SolutionItems) = preProject
@@ -36,5 +36,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB6A0291-12E0-40E9-B21A-F4825ABBEF23}
 	EndGlobalSection
 EndGlobal
